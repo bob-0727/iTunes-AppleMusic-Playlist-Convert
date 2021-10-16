@@ -13,7 +13,7 @@ The purpose of this script is to convert your playlists from iTunes or Apple Mus
 2. Make sure that the script is in a folder/location with the playlists you want to edit, then open the folder in the terminal.
 3. Run the program by using this command if you are on Linux. If you are on another operating system, then run the script as you normally would on that OS.
 ```
-"python3 convert.py" 
+python3 convert.py 
 ```
 5. Enter the name of the playlist you want, including the file extension, and let the script do the rest.
 6. Once the operation is complete, I would recommend going through and checking that everything is converted.
