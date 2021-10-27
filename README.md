@@ -7,6 +7,7 @@ The purpose of this script is to convert your playlists from iTunes or Apple Mus
 - When converting to Windows, you would have to change the slashes to the opposite direction.
 - Two of my songs failed to convert. I figured out one song did not exist, but I am unsure what caused that issue.
 - I took inspiration from this site https://www.geeksforgeeks.org/how-to-search-and-replace-text-in-a-file-in-python/. So shout out to this article for helping me do this.
+- If you use Apple Music and download your music as lossless audio, this tool will not work. This audio is downloaded in the HLS format rather than the m4a format. HLS is not playable on linux as far as I know, so when downloading music from Apple Music be sure that you are downloading the regular High Quality audio.
 
 ## Instructions
 1. Edit the python file and change the strings search and replace to match the directories you are changing from and to. Search should be the path of the songs from your starting operating system, and replace should be the path you want to change to.
